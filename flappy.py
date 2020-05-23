@@ -41,7 +41,7 @@ class Bird(pygame.sprite.Sprite):
 
         self.speed += GRAVITY
 
-        # Update height
+        # Update height - O rect[1] se refere ao eixo y do rect que representa a tela
         self.rect[1] += self.speed
     
     def bump(self):
